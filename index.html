@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>恵方コンパス - App Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        
+        .icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 40px;
+        }
+        
+        .description {
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+        
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .link-button {
+            display: block;
+            padding: 18px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .link-button:active {
+            transform: translateY(0);
+        }
+        
+        .features {
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        
+        .features h2 {
+            color: #667eea;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        
+        .feature-list {
+            text-align: left;
+            display: inline-block;
+        }
+        
+        .feature-item {
+            margin-bottom: 12px;
+            color: #555;
+        }
+        
+        .feature-item::before {
+            content: "✨ ";
+            color: #667eea;
+        }
+        
+        .contact {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 25px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            .icon {
+                font-size: 60px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index_en.html" style="position: absolute; top: 20px; right: 20px; background: white; padding: 8px 16px; border-radius: 20px; text-decoration: none; color: #667eea; font-weight: bold; font-size: 14px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.2s;">🌐 English</a>
+    
+    <div class="container">
+        <div class="icon">🧭</div>
+        <h1>恵方コンパス</h1>
+        <p class="subtitle">今年の恵方を美しく表示</p>
+        
+        <p class="description">
+            日本の伝統文化「恵方」の方角を、クールなデザインのコンパスで表示するiPhoneアプリです。
+            節分の恵方巻きを食べる方角の確認にも最適！
+        </p>
+        
+        <div class="links">
+            <a href="privacy_policy.html" class="link-button">📄 プライバシーポリシー</a>
+            <a href="terms_of_service.html" class="link-button">📋 利用規約</a>
+        </div>
+        
+        <div class="features">
+            <h2>主な機能</h2>
+            <div class="feature-list">
+                <div class="feature-item">リアルタイムコンパスで恵方を表示</div>
+                <div class="feature-item">恵方を向くと画面が金色に変化</div>
+                <div class="feature-item">過去・未来の年の恵方も確認可能</div>
+                <div class="feature-item">クールなデザインとスムーズなアニメーション</div>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <p><strong>お問い合わせ</strong></p>
+            <p>[ここにメールアドレスを記入してください]</p>
+        </div>
+    </div>
+</body>
+</html>
